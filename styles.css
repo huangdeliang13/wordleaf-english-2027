@@ -8,3 +8,10 @@
 .book-cover strong{font-size:13px;letter-spacing:-.3px;white-space:nowrap}.book-cover small{font-size:6px;letter-spacing:1px;white-space:nowrap}
 @media(max-width:620px){.greeting{display:block;position:relative}.greeting .date{position:absolute;bottom:2px;right:0;max-width:none;padding:0;font-size:8px}.greeting h2{font-size:23px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+:root{--vocabulary-version:20261014}
+.vocabulary-source{margin:18px 0 24px;padding:15px 18px;background:#f1f5ea;border:1px solid #dce6d0;border-radius:14px;color:var(--muted);font-size:12px;line-height:1.85}
+.vocabulary-source summary{color:var(--green);font-weight:600;cursor:pointer}
+.vocabulary-source p{margin:12px 0 0}
+.source-links{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:12px}
+.source-links a{color:var(--green);text-underline-offset:3px}
+.meaning-source{font-size:11px;color:var(--muted);margin:16px 0 0;line-height:1.7}
